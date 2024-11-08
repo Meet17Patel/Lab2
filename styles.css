@@ -1,0 +1,72 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #120323;
+    color: #97bf04;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Image container styling */
+.image-container {
+    margin-top: 20px;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 900px;
+    max-height: 600px;
+}
+
+/* Center the displayed image */
+#displayed-image {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    max-height: 600px;
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.image-button {
+    background-color: #d9043d;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+/* Selected button styling */
+.selected {
+    background-color: #97bf04;
+}
+
+/* Change button color on hover */
+.image-button:hover {
+    background-color: #97bf04;
+    color: #120323;
+}

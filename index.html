@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon for Mother Nature Photography -->
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Mother Nature Photography</h1>
+    </header>
+    <main>
+        <!-- Image display area -->
+        <div class="image-container">
+            
+            <img id="displayed-image" src="sheep.webp" alt="Photo 1" onclick="displayImageName()">
+
+            <img id="displayed-image" src="bear.webp" alt="Photo 1" onclick="displayImageName()">
+
+            <img id="displayed-image" src="moose.webp" alt="Photo 1" onclick="displayImageName()">
+
+            <img id="displayed-image" src="wolf.webp" alt="Photo 1" onclick="displayImageName()">
+
+            <img id="displayed-image" src="elk.webp" alt="Photo 1" onclick="displayImageName()">
+
+
+
+        </div>
+        <!-- Button section for image selection -->
+        <div class="button-container">
+            <button onclick="showImage(1)" id="button1" class="image-button selected">Sheep</button>
+            <button onclick="showImage(2)" id="button2" class="image-button">Bear</button>
+            <button onclick="showImage(3)" id="button3" class="image-button">Moose</button>
+            <button onclick="showImage(4)" id="button4" class="image-button">Wolf</button>
+            <button onclick="showImage(5)" id="button5" class="image-button">Elk</button>
+        </div>
+    </main>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
